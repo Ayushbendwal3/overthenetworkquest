@@ -33,6 +33,8 @@ export default async function AuthAccounts() {
 
   if (Object.keys(users).length === 0) return null;
 
+  console.log(users);
+
   return (
     <div className='flex flex-col space-y-3'>
       <p className='text-xs font-bold uppercase text-neutral-100'>
